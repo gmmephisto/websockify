@@ -4,7 +4,7 @@
 
 Name:           python-%{pkgname}
 Version:        0.6.0
-Release:        1%{?dist}
+Release:        CROC1%{?dist}
 Summary:        WSGI based adapter for the Websockets protocol
 
 License:        LGPLv3
@@ -49,6 +49,9 @@ find $RPM_BUILD_ROOT/ -name '*.egg-info' -exec rm -rf -- '{}' '+'
 
 
 %changelog
+* Mon Sep 22 2014 Mikhail Ushanov <gm.mephisto@gmail.com> - 0.6.0-CROC1
+- Specific CROC Cloud build
+
 * Thu Sep 18 2014 Mikhail Ushanov <gm.mephisto@gmail.com> - 0.6.0-1
 - Update to release 0.6.0
 - Add requires to 'numpy'
